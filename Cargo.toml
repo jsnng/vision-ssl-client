@@ -1,10 +1,12 @@
 [package]
 name = "vision-ssl-protobuf"
 version = "0.0.1"
+edition = "2021"
+
 
 [dependencies]
 protobuf = "3"
+tokio = { version = "1", features = ["full"] }
 
 [build-dependencies]
-protobuf-codegen = "3"
-protoc-rust = "^2.0"
+protobuf-codegen-pure = "2.14"
