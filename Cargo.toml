@@ -1,0 +1,10 @@
+[package]
+name = "vision-ssl-protobuf"
+version = "0.0.1"
+
+[dependencies]
+protobuf = "3"
+
+[build-dependencies]
+protobuf-codegen = "3"
+protoc-rust = "^2.0"
